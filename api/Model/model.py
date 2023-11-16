@@ -18,7 +18,7 @@ def lstm_predictions(df):
     features_reshaped = features.reshape(features.shape[0], 1, features.shape[1])
     lstm_y_pred=lstm_model.predict(features_reshaped)
     lstm_y_pred_binary = (lstm_y_pred > 0.5).astype(int)
-    print(lstm_y_pred_binary)
+   # print(lstm_y_pred_binary)
     return lstm_y_pred_binary
 
 def arf_pred(df):
@@ -26,7 +26,7 @@ def arf_pred(df):
     arf_pred=arf_evaluator.predict(data)
     arf_predictions=np.array(arf_pred[0])
     arf_predtn= np.reshape(arf_predictions,(-1,1))
-    print(arf_predtn)
+    #print(arf_predtn)
     return arf_predtn
 
 def combined_predctns(df):

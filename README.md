@@ -5,18 +5,17 @@ Our ultimate objective is to develop a real-time Data Analytics based fraud dete
 
 # Index
 
-1. [Credit Card Fraud Detection](#credit-card-fraud-detection)
-2. [Exploratoy Data Analysis](#exploratory-data-analysis)
-3. [Data Preprocessing](#data-preprocessing)
-4. [Balancing the Dataset](#Balancing-the-Dataset)
-5. [Feature Selection](#feature-selection)
-6. [Train the LSTM model](#train-the-lstm-model)
-7. [Generate LSTM predictions](#generate-lstm-predictions)
-8. [Combine LSTM predictions with original features](#combine-lstm-predictions-with-original-features)
-9. [Train the ARF model](#train-the-arf-model)
-10. [Generating LSTM predictions for new Data](#generating-lstm-predictions-for-new-data)
-11. [Make predictions using ensemble](#make-predictions-using-ensemble)
-12. [Real-time Fraud Detection Enviornment](#REAL-TIME-FRAUD-DETECTION-ENVIORNMENT)
+1. [Exploratoy Data Analysis](#exploratory-data-analysis)
+2. [Data Preprocessing](#data-preprocessing)
+3. [Balancing the Dataset](#Balancing-the-Dataset)
+4. [Feature Selection](#feature-selection)
+5. [Train the LSTM model](#train-the-lstm-model)
+6. [Generate LSTM predictions](#generate-lstm-predictions)
+7. [Combine LSTM predictions with original features](#combine-lstm-predictions-with-original-features)
+8. [Train the ARF model](#train-the-arf-model)
+9. [Generating LSTM predictions for new Data](#generating-lstm-predictions-for-new-data)
+10. [Make predictions using ensemble](#make-predictions-using-ensemble)
+11. [Real-time Fraud Detection Enviornment](#REAL-TIME-FRAUD-DETECTION-ENVIORNMENT)
 
 
 ## Exploratory Data Analysis

@@ -27,8 +27,8 @@ Follow these steps to clone the GitHub repository:
 
 ## For the installation and setup of kafka follow the commands given below :-
 
-``` .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties 
-.\bin\windows\kafka-server-start.bat .\config\server.properties ```
+```.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties 
+.\bin\windows\kafka-server-start.bat .\config\server.properties 
 bin\windows\kafka-topics.bat --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 3 --topic testc
 
 bin\windows\kafka-console-producer.bat --bootstrap-server localhost:9092 --topic testc
@@ -50,4 +50,13 @@ Follow the given order of files for the successful execution of the project.
 1. **fraudpredictions_api.py**
 2. **test_data_producer.py**
 3. **test_kafka_consumer.py**
+
+
+###Large File Considerations:
+**Due to the substantial size of some project files, we were unable to upload them directly to GitHub (which has a file size limit of 1GB).**
+**Instead, we have provided Google Drive links at designated locations within the repository where these larger files can be downloaded locally.** 
+File names:
+1. **Existing_transactions.csv**
+2. **Canara_fraud_detection/api/Models/ARF_model**
+
 

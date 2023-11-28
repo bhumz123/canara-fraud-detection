@@ -3,16 +3,28 @@
 
 Our ultimate objective is to develop a real-time Data Analytics based fraud detection model based fraud detection model that effectively detects fraud while minimizing false positives and negatives. To achieve this, we employ technologies such as Flask API, Kafka streaming, and PostgreSQL for efficient data processing and storage. Our focus is to maintain a shorter streaming time while ensuring accurate fraud detection and reducing financial risks.
 
-# Steps to clone the github repository-
+# Project Setup Guide
 
+## Cloning the GitHub Repository
 
-Navigate to the Repository: Open a web browser and go to the GitHub repository https://github.com/bhumz123/canara-fraud-detection
-Copy Repository URL: Locate the "Clone or download" button and click the "Copy URL" option. This will copy the repository's URL to your clipboard.
-Open Terminal: Launch a terminal window on your local machine.
-Change Directory: Use the cd command to navigate to the directory where you want to clone the repository.
-Clone Repository: Use the git clone command followed by the copied repository URL. 
+Follow these steps to clone the GitHub repository:
 
+1. **Navigate to the Repository:**
+   - Open a web browser and go to the GitHub repository [Canara Fraud Detection](https://github.com/bhumz123/canara-fraud-detection).
 
+2. **Copy Repository URL:**
+   - Locate the "Clone or download" button and click the "Copy URL" option. This will copy the repository's URL to your clipboard.
+3. **Open Terminal:**
+   - Launch a terminal window on your local machine.
+
+4. **Change Directory:**
+   - Use the `cd` command to navigate to the directory where you want to clone the repository.
+
+5. **Clone Repository:**
+   - Use the `git clone` command followed by the copied repository URL.
+
+```bash
+git clone https://github.com/bhumz123/canara-fraud-detection.git
 # For the installation and setup of kafka follow the commands given below :-
 
 
@@ -54,9 +66,9 @@ Navigate to the root directory of the repository and refer to the 'README.md' fi
 - Due to the substantial size of some project files, we were unable to upload them directly to GitHub (which has a file size limit of 1GB).
 - Instead, we have provided Google Drive links at designated locations within the repository where these larger files can be downloaded locally.
 Utilizing Original Models:
-#  For execution purposes, it is essential to download and utilize the original models and files available through the provided Google Drive links.
-# Execution of the project:-
-# Follow the given order of files for the successful execution of the project.
+  For execution purposes, it is essential to download and utilize the original models and files available through the provided Google Drive links.
+Execution of the project:-
+ Follow the given order of files for the successful execution of the project.
 1) fraudpredictions_api.py
 2) test_data_producer.py
 3) test_kafka_consumer.py

@@ -22,22 +22,18 @@ Follow these steps to clone the GitHub repository:
 5. **Clone Repository:**
    - Use the `git clone` command followed by the copied repository URL.
 
-```bash
-git clone https://github.com/bhumz123/canara-fraud-detection.git
+```git clone https://github.com/bhumz123/canara-fraud-detection.git ```
 
 
 ## For the installation and setup of kafka follow the commands given below :-
 
-```bash
- .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties 
-```bash
-.\bin\windows\kafka-server-start.bat .\config\server.properties
-```bash
+``` .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties 
+.\bin\windows\kafka-server-start.bat .\config\server.properties ```
 bin\windows\kafka-topics.bat --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 3 --topic testc
-```bash
+
 bin\windows\kafka-console-producer.bat --bootstrap-server localhost:9092 --topic testc
-```bash
-bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic testc --from-beginning
+bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic testc --from-beginning 
+```
 
 
 ## For the installation of PostGresSQL follow the steps given below :-
@@ -54,5 +50,4 @@ Follow the given order of files for the successful execution of the project.
 1. **fraudpredictions_api.py**
 2. **test_data_producer.py**
 3. **test_kafka_consumer.py**
-
 

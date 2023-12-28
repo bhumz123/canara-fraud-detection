@@ -20,3 +20,5 @@ pyparsing~=3.0.9
 Cython~=3.0.5
 requests~=2.31.0
 scikit-multiflow~=0.5.3
+uptrace==1.22.0
+python-dotenv==1.0.0

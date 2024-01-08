@@ -45,9 +45,9 @@ bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic
 
 ## For the installation of Docker follow the steps given below :-
 
-1.  **Download Docker Desktop **
+1.  **Download Docker Desktop**
 
-2. **Setting up Uptrace on Docker , follow the steps given below **
+2. **Setting up Uptrace on Docker , follow the steps given below**
 
  ```git clone https://github.com/uptrace/uptrace.git
 cd uptrace/example/docker

@@ -29,7 +29,7 @@ Follow these steps to clone the GitHub repository:
 
 ```.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties 
 .\bin\windows\kafka-server-start.bat .\config\server.properties 
-bin\windows\kafka-topics.bat --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 3 --topic testc
+bin\windows\kafka-topics.bat --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 3 --topic testf
 
 bin\windows\kafka-console-producer.bat --bootstrap-server localhost:9092 --topic testf
 bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic testf --from-beginning 
@@ -47,9 +47,9 @@ bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic
 
 1.  **Download Docker Desktop**
 
-2. **Setting up Uptrace on Docker**
+2. **Setting up Uptrace on Docker-**
 
-3.  **Open CLI and execute the following steps**
+    **Open CLI and execute the following steps**
 
  ```git clone https://github.com/uptrace/uptrace.git
 cd uptrace/example/docker
